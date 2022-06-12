@@ -5,16 +5,16 @@ export default function App(){
       <Stage width={window.innerWidth} height={window.innerHeight}>
         <Layer>
           <Line
-              x={20}
-              y={200}
-              points={[145, 200,100,120,180,120]}
+              x={100}
+              y={100}
+              points={[0, 0,200,0,100,300]}
               tension="0.5"
               closed
               stroke="black"
               fill="black"
               draggable
-
           />
+
         </Layer>
       </Stage>
   );
