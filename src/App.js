@@ -14,6 +14,16 @@ export default function App(){
               fill="black"
               draggable
           />
+            <Line
+                x={120}
+                y={120}
+                points={[0, 0,200,0,100,300]}
+                tension="0.5"
+                closed
+                stroke="black"
+                fill="red"
+                draggable
+            />
 
         </Layer>
       </Stage>
